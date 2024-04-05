@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-container img{
+    height: 300px;
+    width: 300px;
+    margin-left: 140px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-container a{
+    margin-top: 10px;
+}

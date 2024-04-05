@@ -1,0 +1,189 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.navbar-contaner
+ {  
+    grid-area: 1 / 1 / 2 / 2; 
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+}
+
+.logoNepal{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    margin-top: 9px;
+}
+
+.navbar{
+    background-color: skyblue;
+    padding: 1.5em;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: .2fr .7fr .7fr .8fr 2fr .8fr .5fr 1.2fr;
+    grid-template-rows: 0;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 70%;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(25, 172, 25);;
+}
+.iconDown{
+    font-size: 10px;
+    color: rgb(102, 99, 99);
+}
+.logo{
+    height: 33px;
+    border-radius: 50px;
+}
+
+.btn-start-parivartan b{
+    color: rgb(25, 172, 25);
+    border: 1px solid rgb(25, 172, 25);
+    padding: 4px 8px;
+    border-radius: 50px;
+    float: right;
+}
+.btn-start-parivartan b:hover{
+    background-color: rgb(25, 172, 25);
+    color: white;
+    border: 1px solid white;
+}
+
+/* item section */
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr) 1.7fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 5em 2em 0 2em;
+}
+    
+.main_img { 
+    grid-area: 1 / 1 / 5 / 4; 
+    height: 400px;
+    margin-right: 20px;
+}
+.main_img  img{
+    border-radius: 10px;
+    height: 430px;
+    width: 100%;
+}
+.sub_img1 { 
+    grid-area: 5 / 1 / 6 / 2; 
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.sub_img2 { 
+    grid-area: 5 / 2 / 6 / 3; 
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.sub_img3 { 
+    grid-area: 5 / 3 / 6 / 4; 
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.sub_img1 img,.sub_img2 img,.sub_img3 img{
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+}
+.item_title { 
+    grid-area: 1 / 4 / 2 / 6; 
+    padding: 30px 0;
+}
+.item_title p{
+    padding: 5px 0;
+}
+.item_title p i{
+    color: rgb(111, 110, 108);
+    font-size: 14px;
+}
+
+.description { 
+    grid-area: 2 / 4 / 5 / 6; 
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.price{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price p{
+    color: rgb(111, 110, 108);
+}
+
+.donation_collected .rate{
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(111, 110, 108);
+    height: 4px;
+    border-radius: 50px;
+}
+
+.rate .rate_line{ 
+    height: 4px;
+    width: 90%;
+    background-color: rgb(71, 160, 71);
+    border-radius: 50px;
+}
+.description .highPay{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.description .highPay p{
+    margin-bottom: 10px;
+}
+.description .highPay a{
+    background: rgba(111, 110, 108, 0.8); /* RGB color with 80% opacity */
+    border-radius: 10px;
+    width: 3px;
+    padding: 0 10px;
+    color: rgb(200, 192, 192);
+}
+.pay_btn { 
+    grid-area: 5 / 4 / 6 / 6; 
+    margin-top:20px ;
+    width: 450px;
+    height: 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.input_amt input{
+    width: 304px;
+    height: 33px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid green;
+    margin-bottom: 2.3em;
+    font-size: 16px;
+}
+.pay_btn #pay{
+    margin: 5px 0;
+    padding: 10px 20px;
+    background-color: rgb(71, 160, 71);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+ }
